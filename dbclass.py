@@ -6,7 +6,7 @@ class DBAdapter:
 
     Attributes:
         connection: connection object represents the database
-        cursor: cursor object has methods to to perform SQL commands:
+        cursor: cursor object has methods to perform SQL commands:
 
     """
     def __init__( self ):

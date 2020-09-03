@@ -7,13 +7,18 @@ An open source library for extracting the data you need from websites, xml sourc
 Example:
 
 from util import ds
+
 from util import readurl
+
 import dbclass.py
 
 url = "..."
+
 s = ds(readurl(url))
 
 db = dbclass.DBAdapter()
+
 db.connect(...)
+
 db.execute(...)
 

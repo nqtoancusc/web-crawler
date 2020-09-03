@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import string
 import random
-import re
 import datetime
 from datetime import tzinfo
 import operator

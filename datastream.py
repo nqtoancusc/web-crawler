@@ -1,16 +1,5 @@
 #!/usr/bin/env python
-import string
-import random
 import re
-import datetime
-from datetime import tzinfo
-import operator
-import time
-import urllib2
-urlopen = urllib2.urlopen
-import StringIO
-import gzip
-import cookielib
 
 class DataStream:
     """
